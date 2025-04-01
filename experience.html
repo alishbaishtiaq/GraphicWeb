@@ -3,46 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - GraphicWeb</title>
+    <title>Professional Experience</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
           <!-- AOS Library -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
     <style>
-        .top-info-bar {
-            background: #343a40;
-            color: #f8f9fa;
-            text-align: center;
-            padding: 10px;
-            font-weight: 500;
-            font-size: 12px;
-        }
-        .top-info-bar a {
-            color: #ffc107; 
-            text-decoration: none;
-            font-weight: 700;
-        }
-        .top-info-bar a:hover {
-            text-decoration: underline;
-        }
-        .navbar {
+         .top-info-bar {
+        background: #343a40;
+        color: #f8f9fa;
+        text-align: center;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .top-info-bar a {
+        color: #ffc107; 
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .top-info-bar a:hover {
+        text-decoration: underline;
+    }
+    .navbar {
         position: sticky;
         top: 0;
         width: 100%;
         z-index: 1050;
     }
-        .team-member img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
+
+        body {
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            font-family: 'Poppins', sans-serif;
         }
-        .team-member {
-            transition: all 0.3s ease-in-out;
+        .experience-section {
+            padding: 80px 0;
         }
-        .team-member:hover {
-            transform: scale(1.05);
+        .experience-box {
+            background: white;
+            border-left: 6px solid #A01515;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .experience-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .highlight {
+            color: #A01515;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #333;
+        }
+        h5 {
+            font-size: 1.4rem;
+            color: #A01515;
+        }
+        p {
+            font-size: 1rem;
+        }
+        .text-muted {
+            font-style: italic;
         }
           /* footer */
           .container a{
@@ -93,7 +121,7 @@
     </style>
 </head>
 <body>
-<!-- Top Info Bar -->
+    <!-- Top Info Bar -->
 <div class="top-info-bar" data-aos="fade-down" data-aos-duration="1000">
     📢 Have a project in mind? Contact us:  
     📞 <a href="tel:+923199726008">+92 319 9726008</a> |  
@@ -116,8 +144,8 @@
                 <li class="nav-item" data-aos="fade-right"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item" data-aos="fade-right" data-aos-delay="100"><a class="nav-link" href="projects.html">Projects</a></li>
                 <li class="nav-item" data-aos="fade-right" data-aos-delay="200"><a class="nav-link" href="skills.html">Skills</a></li>
-                <li class="nav-item" data-aos="fade-right" data-aos-delay="300"><a class="nav-link  active text-primary" href="about.html">About Us</a></li>
-                <li class="nav-item" data-aos="fade-right" data-aos-delay="400"><a class="nav-link" href="experience.html">Experience</a></li>
+                <li class="nav-item" data-aos="fade-right" data-aos-delay="300"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item" data-aos="fade-right" data-aos-delay="400"><a class="nav-link   active text-primary" href="experience.html">Experience</a></li>
                 <li class="nav-item" data-aos="fade-left" data-aos-delay="500">
                     <a class="btn btn-primary" href="https://wa.me/923199726008?text=Hi!%20I%20would%20like%20to%20learn%20more%20about%20your%20web%20development%20and%20graphic%20design%20services."
                         class="btn btn-primary mx-2 custom-btn" target="_blank" style="background-color: #A01515;">
@@ -129,55 +157,70 @@
     </div>
 </nav>
 
-    <!-- Hero Section -->
-    <header class="text-white text-center py-5"style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gradient.jpg'); background-size: cover; background-position: center center;">
-        <div class="container">
-            <h1 class="fw-bold" data-aos="fade-down">About Us</h1>
-            <p class="lead" data-aos="fade-up">We specialize in web development & graphic design, delivering top-notch solutions for businesses.</p>
-        </div>
-    </header>
+    
+        <!-- Hero Section -->
+        <header class="text-white text-center py-5" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gradient.jpg'); background-size: cover; background-position: center center;">
+            <div class="container">
+                <h1 class="fw-bold" data-aos="fade-down">Professional Experience</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">A journey of creativity and innovation in web development & graphic design</p>
+            </div>
+        </header>
 
-  <!-- About Us Content -->
-<section class="container my-5" data-aos="fade-up">
-    <div class="row align-items-center">
-        <div class="col-md-6" data-aos="fade-right">
-            <img src="about.png" class="img-fluid rounded shadow-sm" alt="About Us">
-        </div>
-        <div class="col-md-6" data-aos="fade-left">
-            <h2 class="fw-bold">Who We Are</h2>
-            <p>At GraphicWeb, we create powerful digital experiences. Whether it's custom websites, intuitive UI/UX designs, or branding materials, we ensure top quality in every project.</p>
-            <p>Our expertise spans across React.js, Bootstrap, HTML, CSS, JavaScript, Django (Python), ASP.NET Core Web API, MySQL, Desktop Application Development, UI/UX Design, Git & GitHub, and Illustrator.</p>
-            <a href="skills.html" class="btn btn-primary mt-3" style="background-color: #A01515;">Explore Our Skills →</a>
+   <!-- Experience Section -->
+<section class="experience-section">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
+                <div class="experience-box">
+                    <h5 class="fw-bold">Web Developer</h5>
+                    <p class="text-muted">Freelance | 2023</p>
+                    <p class="text-secondary">Developing responsive and user-friendly websites using HTML, CSS, Bootstrap, JavaScript, Django, and ASP.NET Core.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="experience-box">
+                    <h5 class="fw-bold">Graphic Designer</h5>
+                    <p class="text-muted">Vistora Boutique | 2024</p>
+                    <p class="text-secondary">Creating captivating designs for branding, marketing, and digital products using Adobe Illustrator.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="experience-box">
+                    <h5 class="fw-bold">Django Backend Developer</h5>
+                    <p class="text-muted">Real Estate CRM Project | 2025</p>
+                    <p class="text-secondary">Developing CRM solutions using Django and MySQL, implementing client inquiry systems, chatbot integrations, and lead management.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="experience-box">
+                    <h5 class="fw-bold">Frontend Developer</h5>
+                    <p class="text-muted">Printer Shop Website | 2025</p>
+                    <p class="text-secondary">Designed and built a fully responsive online printing shop using HTML, CSS, Bootstrap, JavaScript, and Django.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="experience-box">
+                    <h5 class="fw-bold">Portfolio Website</h5>
+                    <p class="text-muted">Personal Project | 2024</p>
+                    <p class="text-secondary">Designed and developed a personal portfolio website to showcase projects, skills, and experience.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="experience-box">
+                    <h5 class="fw-bold">HR Management System</h5>
+                    <p class="text-muted">ASP.NET Core Web API | 2024</p>
+                    <p class="text-secondary">Developed an HR management system using C#, HTML, CSS, JavaScript, and ASP.NET Core Web API.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Our Team Section -->
-<section class="bg-light py-5" data-aos="fade-up">
-    <div class="container text-center">
-        <h2 class="fw-bold mb-4" data-aos="fade-down">Meet Our Team</h2>
-        <div class="row">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member p-4 shadow-sm bg-white rounded">
-                    <h5 class="fw-bold">Shahnawaz</h5>
-                    <p class="text-muted">Founder & Lead Developer</p>
-                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member p-4 shadow-sm bg-white rounded">
-                    <h5 class="fw-bold">Ahmed Raza</h5>
-                    <p class="text-muted">UI/UX Designer</p>
-                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="team-member p-4 shadow-sm bg-white rounded">
-                    <h5 class="fw-bold">Ahad Meer</h5>
-                    <p class="text-muted">Graphic Designer</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- footer -->
 <footer class="text-center text-white py-4" style="background-color: #000;">
@@ -201,7 +244,6 @@
             <a href="experience.html" class="mx-2 text-white text-uppercase">Experience</a>
             <a href="about.html" class="mx-2 text-white text-uppercase">About</a>
         </div>
-
         <!-- Footer Bottom Text -->
         <div class="py-2" style="background-color: #222;">
             <p class="mb-0">Crafted with ❤️ in Islamabad Pakistan</p>
@@ -209,10 +251,12 @@
         </div>
     </div>
 </footer>
+
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
     AOS.init();
 </script>
-
 </body>
 </html>
